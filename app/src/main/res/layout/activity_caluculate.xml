@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".caluculate">
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:hint="@string/salary"/>
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber"
+        android:layout_alignLeft="@id/editTextNumber"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/gains"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber2"
+        android:layout_alignLeft="@id/editTextNumber2"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/other"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber3"
+        android:layout_alignLeft="@id/editTextNumber3"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/buttons"
+        android:padding="9dp"
+        android:text="@string/cal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_alignLeft="@id/button2"
+        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Answer" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tax Caluculator</string>
+    <string name="user">Enter Pan Number</string>
+    <string name="password">Enter Password</string>
+    <string name="go">Sign In</string>
+    <string name="cal">Caluculate</string>
+    <string name="salary">Enter Your Salary</string>
+    <string name="gains">Capital Gains</string>
+    <string name="other">Other Sources</string>
+</resources>
